@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms 02</title>
+    <style>
+        body{
+            background-image: url(https://drexel.edu/~/media/Drexel/Sites/Core/Images/admissions/visit-tours/virtual-background-downloads/blue-pattern.ashx);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        fieldset{
+            width: fit-content;
+            margin: 100px 0 0 300px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid white;
+        }
+        th{
+            font-size: 30px;
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+        label{
+            color: white;
+        }
+        #name1{
+            width: 180px;
+        }
+        #name2{
+            width: 180px;
+        }
+        #email{
+            width:375px;
+        }
+        #phone{
+            width: 100px;
+        }
+        .p1{
+            margin-left: -55px;
+        }
+        .p2{
+            margin-left: -114px;
+        }
+        #m1{
+            width: 180px;
+        }
+        #submit{
+            margin-left: 320px;
+            margin-top: 20px;
+            padding:10px 80px 10px 80px;
+            background-color: #36548c;
+            color: white;
+            font-weight: bolder;
+        }
+        #submit:hover{
+            color: black;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+        <table>
+            <tr>
+                <th >Contact form</th>
+            </tr>
+            <tr>
+                <td><label for="">Your Name</label></td>
+                <td><input type="text" id="name1" placeholder="First Name"></td>
+                <td><input type="text" id="name2" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td><label for="">your Email</label></td>
+                <td colspan="3"><input type="email" id="email" placeholder="abc@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="#phone">Phone*</label></td>
+                <td><input type="number" placeholder="###" id="phone"></td>
+                <td><input type="number" placeholder="###" id="phone" class="p1"></td>
+                <td><input type="number" placeholder="###" id="phone" class="p2"></td>
+            </tr>
+            <tr>
+                <td><label for="">Message Subject*</label></td>
+                <td><select name="" id="m1">
+                    <option value="">Other</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="">Message*</label></td>
+                <td colspan="3"><textarea name="" id="" cols="50" rows="8"></textarea></td>
+            </tr>
+        </table>
+        </fieldset>
+        <input type="submit" value="SUBMIT FORM" id="submit">
+    </form>
+</body>
+</html>
