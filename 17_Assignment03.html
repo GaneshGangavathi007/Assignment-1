@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Assignment 03</title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+   <style>
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(95, 82, 82);
+        padding: 15px;
+    }
+    a{
+        font-size: 20px;
+        font-weight: bolder;
+        text-decoration: none;
+        color: rgb(72, 6, 134);
+    }
+    #contact{
+        color: white;
+    }
+    i{
+        color: rgb(72, 6, 134) ;
+    }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+    }
+    /* div{
+        padding-left: 350px;
+        padding-right: 350px;
+    } */
+     label{
+        color: white;
+        background-color: rgb(64, 63, 63);
+        padding: 5px;
+        margin-top: 10px;
+     }
+     table{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+     }
+     input{
+        width: 350px;
+     }
+     #name{
+        margin-bottom: 15px;
+     }
+     #label1{
+        padding-right: 170px;
+        margin-bottom: 15px;
+     }
+     #label2{
+        padding-right: 168px;
+     }
+     #label3{
+        padding-right: 150px;
+     }
+     #label4{
+        padding-right: 145px;
+     }
+     #copy{
+        margin-left: -150px;
+     }
+     button{
+        margin-top: 20px;
+        background-color: rgb(236, 80, 80);
+        color: white;
+        border: none;
+        padding: 5px;
+        width: 150px;
+     }
+   </style>
+</head>
+<body>
+    <nav>
+        <i class="fas fa-home"></i>
+        <a href="">ABOUT BLACK SHEEP</a>
+        <a href="">NEWS/FEATURES/FACTS</a>
+        <a href="">WEBSITE SERVICES</a>
+        <a href="">GALLARY/PORTFOLIO</a>
+        <a href="" id="contact">CONTACT US</a>
+    </nav>
+    <div>
+        <h1 align="center">CONTACT US</h1>
+        <span>Email us with any questions or inquiries or call 518-387-9327. We would be </span>
+         <span>happy to answer your questions and set up a meeting with you. Black </span>
+    <span> Web Design can help set you apart from the flock</span>
+     <table>
+        <tr>
+            <td><label for="#name" id="label1">NAME:</label></td>
+            <td><input type="text" placeholder="Name" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="#email" id="label2">EMAIL:</label></td>
+            <td><input type="email" name="" id="email" placeholder="Email"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>please use REAL email adress so that we can get back to you</td>
+        </tr>
+        <tr>
+            <td><label for="#subject" id="label3">SUBJECT:</label></td>
+            <td> <input type="text" placeholder="Inquiry for Black Sheep Web Design" id="subject"></td>
+        </tr>
+        <tr>
+            <td><label for="#message" id="label4">MESSAGE:</label></td>
+            <td><textarea name="" id="message" cols="30" rows="8" placeholder="Message"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="#copy">SEND ME A COPIED EMAIL:</label></td>
+            <td><input type="checkbox" name="" id="copy"></td>
+        </tr>
+        <tr>
+            <td><button>SEND EMAIL</button></td>
+        </tr>
+     </table>
+    </div>
+</body>
+</html>

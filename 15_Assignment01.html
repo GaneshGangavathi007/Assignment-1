@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Assignment 01</title>
+     <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+     <style>
+        header{
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            margin-left: 100px;
+            color: rgb(6, 6, 62);
+        }
+        header:nth-child(6){
+            color: red;
+        }
+        #one{
+            text-align: center;
+            background-color: rgb(79, 76, 76);
+            padding: 20px;
+            padding-bottom: 100px;
+            width: 100%;
+        }
+        #one-1{
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+            padding: 20px;
+        }
+        #one-2{
+            font-size: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        i{
+            color: orange;
+            font-size: 20px;
+            padding: 10px;
+            border: 2px solid orange;
+            border-radius: 50%;
+        }
+        #two{
+            margin-left: 200px;
+            margin-top: -65px;
+            display: inline-block;
+            padding: 20px;
+            background-color: white;
+        }
+        #two-one{
+            padding: 20px;
+        }
+        #two-two{
+            padding: 20px; 
+        }
+        div{
+            width: fit-content;
+        }
+        #two-three{
+            margin-left: 300px;
+            margin-top: -255px;
+            padding: 20px;
+        }
+        #two-three-one{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        form{
+            text-align: center;
+        }
+        table{
+           margin-left: -50px;
+           padding: 10px;
+        }
+        input{
+            border-bottom: 1px solid grey;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        button{
+            margin-left: 55px;
+            color: white;
+            background-color: rgb(9, 178, 245);
+            border: none;
+            padding: 10px;
+        }
+        #number{
+            font-size: 20px;
+            font-weight: bolder;
+            margin-left: 50px;
+            color: rgb(9, 178, 245);
+        }
+        #see{
+            color:  rgb(9, 178, 245);
+        }
+        #emp{
+            margin-left: 266px;
+        }
+        #select{
+            margin-left: 240px;
+        }
+     </style>
+</head>
+<body>
+    <header>Hubspot</header>
+    <div id="one">
+        <span id="one-1">CONTACT US ABOUT HUBSPOT`S <BR>SOFTWARE</BR></span>
+        <span id="one-2">We`d love to show you can get more traffic and leads, increase your sales <br>productivity, provide
+        better customer service, or all of the above! Here are a few ways <br>to reach out to our sales team.</span>
+    </div>
+    <div id="two">
+        <div id="two-one">
+            <i class="fas fa-phone"></i>
+                <span>Call us directly at</span><br>
+                <span id="number">+353 1512 4400</span><br>
+                <span id="see">See all numbers and location</span>
+        </div>
+        <div id="two-two">
+            <i class="fas fa-comments"></i>
+            <span>Chat with our sales team</span><br>
+            <button>CHAT WITH SALES</button>
+        </div>
+        <div id="two-three">
+            <h3 id="two-three-one">Book a Meeting</h3>
+            <span id="two-three-two">To schedule time to speak with one of our sales representatives, complete <br>
+            the form, then click "next" to choose a date and time that works for you</span>
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="">First Name*</label></td>
+                        <td><label for="">Last Name*</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">EMail*</label></td>
+                        <td><label for="">Phone Number*</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" name="" id=""></td>
+                        <td><input type="number" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Company Name*</label></td>
+                        <td><label for="">Website Url*</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="" id="emp">Employess*</label><br>
+                            <select name="" id="select"><option value="">Please Select</option></select></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
